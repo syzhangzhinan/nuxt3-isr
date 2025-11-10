@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   nitro: {
     // preset: "node-server",
     // 初始预渲染一次（可让 crawler 自动发现，或手动列出）
-    // prerender: { routes: ["/swr"] }
+    prerender: { routes: ["/isr"] }
     // storage: {
     //   cache: { driver: "fs", base: "./.nitro/cache" } // 或平台支持的共享存储
     // }
