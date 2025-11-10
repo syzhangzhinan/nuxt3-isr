@@ -8,8 +8,8 @@ export default defineNuxtConfig({
     // }
   },
   routeRules: {
-    // "/time": { swr: 10 }
-    "/": { isr: 120 } // 每 120 秒允许再生一次静态产物
+    "/isr": { isr: 120 }, // 每 120 秒允许再生一次静态产物
+    "/swr": { swr: 120 }
   },
   compatibilityDate: "2025-11-06"
 })
