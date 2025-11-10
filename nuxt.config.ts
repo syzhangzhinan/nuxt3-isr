@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/isr": { isr: 120 }, // 每 120 秒允许再生一次静态产物
-    "/swr": { swr: 120 }
+    "/swr": { prerender: true, swr: 120 }
   },
   compatibilityDate: "2025-11-06"
 })
